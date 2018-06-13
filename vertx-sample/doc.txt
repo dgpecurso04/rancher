@@ -1,0 +1,173 @@
+    1  docker image
+    2  docker images
+    3  clear
+    4  docker run kebblar/jdk18-utf8-debug-maven
+    5  docker images
+    6  apt-get install tree
+    7  tree
+    8  cd h
+    9  cd /home/
+   10  tree
+   11  cd
+   12  docker run -d -p 8081:8080 -v /home/Documents/vertx-sample:/vertx-sample -e PBA=server8081 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.
+   13  docker run -d -p 8081:8080 -v /home/Documents/vertx-sample:/vertx-sample -e PBA=server8081 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   14  docker images
+   15  docker ps
+   16  docker run -d -p 8081:8080 -v /home/osboxes/Documents/vertx-sample:/vertx-sample -e PBA=server8081 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   17  docker ps
+   18  curl www.personal.unam.mx
+   19  clear
+   20  nano
+   21  apt-get install haproxy
+   22  nano /etc/default/haproxy 
+   23  nano /etc/haproxy/haproxy.cfg 
+   24  service haproxy status
+   25  service haproxy stop
+   26  service haproxy start
+   27  service haproxy status
+   28  nano /etc/default/haproxy 
+   29  nano /etc/haproxy/haproxy.cfg 
+   30  service haproxy stop
+   31  service haproxy start
+   32  service haproxy status
+   33  docker run -d -p 8082:8080 -v /home/osboxes/Documents/vertx-sample:/vertx-sample -e PBA=server8082 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   34  docker run -d -p 8083:8080 -v /home/osboxes/Documents/vertx-sample:/vertx-sample -e PBA=server8083 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   35  nano test.sh
+   36  chmod 777 test.sh 
+   37  run test.sh 
+   38  sh test.sh 
+   39  nano test.sh
+   40  curl http://localhost:9090/api/suma?numA=6&numB=7
+   41  curl http://localhost:9090/api/div?numA=1&numB=2
+   42  curl http://localhost:9090/api/div?numA=1
+   43  nano test.sh
+   44  sh test.sh 
+   45  nano test.sh
+   46  chmod -h 777 test.sh 
+   47  chmod 777 test.sh 
+   48  sh test.sh 
+   49  ls
+   50  ll
+   51  cd /home/osboxes/
+   52  ls
+   53  cd Documents/
+   54  cd vertx-sample/
+   55  nano test.sh
+   56  cat test.sh 
+   57  cd
+   58  cat test.sh 
+   59  cd /home/osboxes/Documents/vertx-sample/
+   60  nano test.sh 
+   61  chmod 777 test.sh 
+   62  sh test.sh 
+   63  nano test.sh 
+   64  curl google.com
+   65  sh test.sh 
+   66  curl http://localhost:9090/api/suma?numA=8&numB=
+   67  nano test.sh 
+   68  sh test.sh 
+   69  nano test.sh 
+   70  sh test.sh 
+   71  nano test.sh 
+   72  sh test.sh 
+   73  nano test.sh 
+   74  sh test.sh 
+   75  nano test.sh 
+   76  sh test.sh 
+   77  nano test.sh 
+   78  sh test.sh 
+   79  docker run -it -v /home/osboxes/Documents/vertx-sample/:/vertx-sample kebblar/jdk18-utf8-debug-maven bash 
+   80  sh test.sh 
+   81  nano test.sh 
+   82  sh test.sh 
+   83  nano test.sh 
+   84  sh test.sh 
+   85  docker run -it -v /home/osboxes/Documents/vertx-sample/:/vertx-sample kebblar/jdk18-utf8-debug-maven bash 
+   86  docker ps
+   87  history > mike_hoy
+   88  ls
+   89  cd
+   90  cd /etc/default/
+   91  ls
+   92  cd haproxy
+   93  cd
+   94  nano /etc/default/haproxy 
+   95  nano /etc/haproxy/haproxy.cfg 
+   96  docker images
+   97  history > mike.txt
+   98  ll
+   99  cat mike.txt 
+  100  docker run omarbojorquez/calcu
+  101  docker run omarbojorquez/calcu bash
+  102  docker run -it bash
+  103  docker run -it omarbojorquez/first-nodejs-img bash
+  104  docker images
+  105  docker ps
+  106  cd /home/osboxes/
+  107  ll
+  108  ls
+  109  cd Documents/
+  110  ls
+  111  cd vertx-sample/
+  112  docker ps
+  113  nano Dockerfile
+  114  PWD
+  115  pwd
+  116  nano Dockerfile
+  117  docker commit c1f9418c63e4 dgpecurso04/calcu
+  118  docker ps
+  119  docker images
+  120  nano Dockerfile
+  121  docker login --username=dgpecurso04 --email=dgpe.curso.04@gmail.com 
+  122  docker login
+  123  nano Dockerfile 
+  124  docker images
+  125  nano Dockerfile 
+  126  docker build -t dgpecurso04/calculadora:v0.1 .
+  127  nano Dockerfile 
+  128  docker run gustavoarellano/jdk18
+  129  docker ps
+  130  docker images
+  131  nano Dockerfile 
+  132  cd target/
+  133  ll
+  134  cd ..
+  135  nano Dockerfile 
+  136  ll
+  137  nano Dockerfile 
+  138  cd target/
+  139  pwd
+  140  nano Dockerfile 
+  141  cd ..
+  142  nano Dockerfile 
+  143  cd..
+  144  cd ..
+  145  docker build -t dgpecurso04/calculadora:v0.1 .
+  146  cd vertx-sample/
+  147  docker build -t dgpecurso04/calculadora:v0.1 .
+  148  nano Dockerfile 
+  149  docker build -t dgpecurso04/calculadora:v0.1 .
+  150  docker images
+  151  reboot
+  152  docker images
+  153  docker push dgpecurso04/calculadora
+  154  docker login
+  155  docker push dgpecurso04/calculadora
+  156  docker images
+  157  docker run -it d17ea3b68595 bash
+  158  cd /home/osboxes/Documents/
+  159  cd vertx-sample/
+  160  nano Dockerfile 
+  161* 
+  162  docker images
+  163  docker run -it bbe9945f860c bash
+  164  docker push dgpecurso04/calculadora:v0.2
+  165  nano Dockerfile 
+  166  docker images
+  167  docker run -it dgpecurso04/calculadora:v0.2 bash
+  168  ls
+  169  ll
+  170  rm -rf .git
+  171  rm .gitignore 
+  172  ll
+  173  history > doc.txt

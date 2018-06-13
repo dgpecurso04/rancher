@@ -1,0 +1,87 @@
+    1  docker image
+    2  docker images
+    3  clear
+    4  docker run kebblar/jdk18-utf8-debug-maven
+    5  docker images
+    6  apt-get install tree
+    7  tree
+    8  cd h
+    9  cd /home/
+   10  tree
+   11  cd
+   12  docker run -d -p 8081:8080 -v /home/Documents/vertx-sample:/vertx-sample -e PBA=server8081 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.
+   13  docker run -d -p 8081:8080 -v /home/Documents/vertx-sample:/vertx-sample -e PBA=server8081 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   14  docker images
+   15  docker ps
+   16  docker run -d -p 8081:8080 -v /home/osboxes/Documents/vertx-sample:/vertx-sample -e PBA=server8081 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   17  docker ps
+   18  curl www.personal.unam.mx
+   19  clear
+   20  nano
+   21  apt-get install haproxy
+   22  nano /etc/default/haproxy 
+   23  nano /etc/haproxy/haproxy.cfg 
+   24  service haproxy status
+   25  service haproxy stop
+   26  service haproxy start
+   27  service haproxy status
+   28  nano /etc/default/haproxy 
+   29  nano /etc/haproxy/haproxy.cfg 
+   30  service haproxy stop
+   31  service haproxy start
+   32  service haproxy status
+   33  docker run -d -p 8082:8080 -v /home/osboxes/Documents/vertx-sample:/vertx-sample -e PBA=server8082 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   34  docker run -d -p 8083:8080 -v /home/osboxes/Documents/vertx-sample:/vertx-sample -e PBA=server8083 kebblar/jdk18-utf8-debug-maven java -jar /vertx-sample/target/sample-1.0-SNAPSHOT-fat.jar
+   35  nano test.sh
+   36  chmod 777 test.sh 
+   37  run test.sh 
+   38  sh test.sh 
+   39  nano test.sh
+   40  curl http://localhost:9090/api/suma?numA=6&numB=7
+   41  curl http://localhost:9090/api/div?numA=1&numB=2
+   42  curl http://localhost:9090/api/div?numA=1
+   43  nano test.sh
+   44  sh test.sh 
+   45  nano test.sh
+   46  chmod -h 777 test.sh 
+   47  chmod 777 test.sh 
+   48  sh test.sh 
+   49  ls
+   50  ll
+   51  cd /home/osboxes/
+   52  ls
+   53  cd Documents/
+   54  cd vertx-sample/
+   55  nano test.sh
+   56  cat test.sh 
+   57  cd
+   58  cat test.sh 
+   59  cd /home/osboxes/Documents/vertx-sample/
+   60  nano test.sh 
+   61  chmod 777 test.sh 
+   62  sh test.sh 
+   63  nano test.sh 
+   64  curl google.com
+   65  sh test.sh 
+   66* curl http://localhost:9090/api/suma?numA=8&numB=
+   67  nano test.sh 
+   68  sh test.sh 
+   69  nano test.sh 
+   70  sh test.sh 
+   71  nano test.sh 
+   72  sh test.sh 
+   73  nano test.sh 
+   74  sh test.sh 
+   75  nano test.sh 
+   76  sh test.sh 
+   77  nano test.sh 
+   78  sh test.sh 
+   79  docker run -it -v /home/osboxes/Documents/vertx-sample/:/vertx-sample kebblar/jdk18-utf8-debug-maven bash 
+   80  sh test.sh 
+   81  nano test.sh 
+   82  sh test.sh 
+   83  nano test.sh 
+   84  sh test.sh 
+   85  docker run -it -v /home/osboxes/Documents/vertx-sample/:/vertx-sample kebblar/jdk18-utf8-debug-maven bash 
+   86  docker ps
+   87  history > mike_hoy
